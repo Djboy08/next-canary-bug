@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  compress: false,
   experimental: {
     appDir: true,
+    mdxRs: true,
   },
 }
 
-module.exports = nextConfig
+
+export default nextConfig
